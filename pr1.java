@@ -28,7 +28,11 @@ class point3d extends point2d
 	int z;
 	point3d(int x, int y,int z)
 	{
+<<<<<<< HEAD
 		super(x,y); //상위 클래스 생성자 호출 
+=======
+		super(x,y); //상위 클래스의 생성자 호출
+>>>>>>> 4a1b48b2ae93539cf60eb2c5b9e13eed7866143c
 		this.z=z;
 	}
 	int getZ()
